@@ -1,0 +1,53 @@
+@import "../../assets/css/modules/all";
+
+.navbar {
+  &__title {
+    display: inline-block;
+    color: $color-text-accent;
+  }
+
+  &__hamburger {
+    cursor: pointer;
+    margin: 1em 0;
+    background: #fff;
+    padding:1rem 1.8rem;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px 1px #E1E6EA;
+    @include transition(all);
+  }
+
+  &__right {
+    display: flex;
+    float: right;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  &__links {
+    display: inline-block;
+    float: right;
+
+    &__link {
+      text-decoration: none;
+      color: $color-base-dark;
+      display: inline-flex;
+      align-items: center;
+      margin-left: $spacing-m;
+      border-left: 1px solid $color-grey-light;
+      padding-left: $spacing-s;
+
+      &:hover {
+        color: darken($color-base-dark, 5%);
+      }
+
+      &__icon {
+        font-size: $size-xl;
+        margin-right: $spacing-xs;
+      }
+
+      &__text {
+        font-size: $size-l;
+      }
+    }
+  }
+}

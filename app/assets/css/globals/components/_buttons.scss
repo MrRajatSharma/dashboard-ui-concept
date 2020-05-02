@@ -1,0 +1,4 @@
+.btn {
+  @extend %btn;
+  user-select: none;
+}
