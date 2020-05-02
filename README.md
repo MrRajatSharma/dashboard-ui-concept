@@ -7,4 +7,4 @@
 3. open `http://localhost:4000/`
 
 ## Screenshot
-![Screen](https://raw.githubusercontent.com/MrRajatSharma/dashboard-ui-conecpt/master/screenshot.png "Screen")
+![Screen](https://raw.githubusercontent.com/MrRajatSharma/dashboard-ui-concept/master/screenshot.png "Screen")
